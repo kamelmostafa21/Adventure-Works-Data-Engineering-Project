@@ -42,13 +42,13 @@ This project demonstrates a real-world Azure data engineering pipeline using the
 ## 🔁 Pipeline Stages
 
 ### 🟫 Bronze Layer
-Raw CSV files ingested from AdventureWorks dataset using Azure Data Factory and stored in `raw/` folder in ADLS.
+Raw CSV files ingested from AdventureWorks dataset using Azure Data Factory .
 
 ### ⚪ Silver Layer
-Raw data cleaned, typed, deduplicated, and joined using Azure Databricks notebooks. Stored in `processed/` folder in ADLS in Parquet format.
+Raw data cleaned, typed, deduplicated, and joined using Azure Databricks notebooks.
 
 ### 🥇 Gold Layer
-Aggregated KPIs such as monthly sales, customer lifetime value, and top products are computed. Stored in `curated/` folder in ADLS and exposed to Synapse via external tables.
+Aggregated KPIs such as number of orders, number of customers value, and top products are computed.
 
 ### 📊 Power BI
 Power BI connects directly to Synapse SQL views using DirectQuery for live reporting.
