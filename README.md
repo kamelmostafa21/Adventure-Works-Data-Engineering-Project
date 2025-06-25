@@ -22,16 +22,7 @@ This project demonstrates a real-world Azure data engineering pipeline using the
 
 ## 🏗️ Architecture
 
-```mermaid
-graph TD
-    A[AdventureWorks CSV Files] --> B[Azure Data Factory (ADF)]
-    B --> C[Azure Data Lake Storage Gen2]
-    C --> C1[Bronze Layer]
-    C --> C2[Silver Layer]
-    C --> C3[Gold Layer]
-    C3 --> D[Azure Databricks<br>(PySpark Transformations)]
-    D --> E[Azure Synapse Serverless<br>(External Tables)]
-    E --> F[Power BI<br>(DirectQuery)]
+![diagram](images/diagram.png)
 
 
 
