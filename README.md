@@ -74,7 +74,7 @@ Power BI connects directly to Synapse SQL views using DirectQuery for live repor
 - number of orders per year
 - number of ordees per product
 
-![power bi](images/diagram.png)
+![power bi](images/Screenshot 2025-06-25 142031.png)
 --------
 
 
