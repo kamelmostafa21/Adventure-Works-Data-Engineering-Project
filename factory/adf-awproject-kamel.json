@@ -1,0 +1,9 @@
+{
+	"name": "adf-awproject-kamel",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "efbee2c0-60dc-4821-afbf-f61972bf4e78",
+		"tenantId": "0ffeb7b8-177f-48b0-809f-2499efab9107"
+	}
+}
